@@ -42,7 +42,7 @@ namespace exSharp {
 		}
 
 		public static bool IsYesterday(this DateTime x) {
-			var yesterday = DateTime.Now.AddDays(-1);
+			var yesterday = DateTime.Now.AddDays(-1);			
 			return x.IsSameDay(yesterday) && x.IsSameMonth(yesterday);
 		}
 
